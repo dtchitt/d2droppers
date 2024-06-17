@@ -1,0 +1,261 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700);
+body {
+  font-family: 'Ubuntu', ;
+  background-color: #1F2128;
+}
+.mega-dropdown {
+  position: static !important;
+}
+.mega-dropdown-menu {
+    padding: 20px 0px;
+    width: 100%;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+	background-color: #27272B;
+	color: #FFF;
+}
+.mega-dropdown-menu > li > ul {
+  padding: 0;
+  margin: 0;
+}
+.mega-dropdown-menu > li > ul > li {
+  list-style: none;
+}
+.mega-dropdown-menu > li > ul > li > a {
+  display: block;
+  padding: 3px 5px;
+}
+.mega-dropdown-menu > li ul > li > a:hover,
+.mega-dropdown-menu > li ul > li > a:focus {
+  text-decoration: none;
+}
+.mega-dropdown-menu .dropdown-header {
+  font-size: 18px;
+  color: #ff3546;
+  padding: 5px 60px 5px 5px;
+  line-height: 30px;
+}
+
+.carousel-control {
+  width: 30px;
+  height: 30px;
+  top: -35px;
+
+}
+.left.carousel-control {
+  right: 30px;
+  left: inherit;
+}
+.carousel-control .glyphicon-chevron-left, 
+.carousel-control .glyphicon-chevron-right {
+  font-size: 12px;
+  background-color: #fff;
+  line-height: 30px;
+  text-shadow: none;
+  color: #333;
+  border: 1px solid #ddd;
+}
+
+.navbar {
+    border-radius: 0px !important;
+}
+
+
+.colorWhite {
+	color: #FFF;
+}
+
+.homepageItem {
+	color: #FFF;
+}
+
+.homepageItem .imgBox {
+	width: 96%;
+	margin: 1%;
+	padding: 1%;
+	background-color: #000;
+	text-align: center;
+	border-radius: 7px;
+}
+
+.homepageItem .imgBox img {
+	min-width: auto;
+	height: auto;
+}
+
+.homepageItem span.title {
+	display: block;
+	width: 100%;
+	text-align:center;
+	font-size: 1.5em;
+    color: #949494;
+    font-weight: bold;
+}
+
+.homepageItem span.price {
+	font-size: 0.6em;
+}
+
+.btn {
+	color: #000;
+}
+
+.itemHomepageDescription {
+	text-align: center;
+	display: block;
+	width:100%;
+}
+
+.aboutGameServicesBox {
+	color: #FFF;
+}
+
+.fancyHR {
+	overflow: visible;
+    height: 30px;
+    border-style: solid;
+    border-color: white;
+    border-width: 1px 0 0 0;
+    border-radius: 20px;
+}
+
+.fancyHR:before {
+	display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: white;
+    border-width: 0 0 1px 0;
+    border-radius: 20px;
+}
+
+.realmOnly {
+	display: block;
+	width: 100%;
+	color: #FFF;
+	text-align:center;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+img.fullWide {
+	width: 100%;
+	height: auto;
+}
+
+footer {
+	margin-top: 25px;
+	background-color: #222;
+    border-color: #080808;
+	border-top: solid 1px black;
+	border-left: solid 1px black;
+	border-right: solid 1px black;
+	border-bottom: solid 1px black;
+	padding: 10px;
+	color: #FFF;
+	height: 35px;
+}
+
+.singleitemInner {
+	background-color: #000;
+	width: 94%;
+	padding: 3%;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.singleitemInner span.title {
+	display: block;
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+    color: #949494;
+    font-weight: bold;
+}
+
+.singleItemLeft {
+	font-size: 1.3em;
+	color: #FFF;
+	margin-bottom:10px;
+}
+
+.qtyCounter {
+	color: #000;
+}
+
+.innerItemListBox {
+	width: 94%;
+	padding: 1%;
+	margin-left: 3%;
+	background-color: #000;
+	color: #FFF;
+	margin-bottom: 10px;
+	border-radius: 10px;
+}
+
+.innerItemListBox .imageBox {
+	vertical-align: middle;
+	text-align: center;
+	display: table-cell;
+}
+
+.innerItemListBox img {
+	display: block;
+	margin: 0 auto;
+}
+
+.centerAll {
+	vertical-align: middle;
+	text-align: center;
+}
+
+.loginForm input {
+	width: 100%;
+	background-color: #27272B;
+	color: #FFF;
+}
+
+.searchBox {
+	background-color: #000;
+	border: solid 1px black;
+	color: #FFF;
+	width: 90% !important;
+}
+
+.searchForm {
+	width: 100%;
+	text-align: center;
+}
+
+.searchButton {
+	background-color: #27272B;
+	border: solid 1px white;
+	color: #FFF;
+}
+
+.recentOrderTable {
+	background-color: #000;
+	color: #FFF;
+}
+
+.addItemBox input {
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	border: solid 1px white;
+}
+
+.addItemBox select {
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	border: solid 1px white;
+}
+
+.addItemBox textarea {
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	border: solid 1px white;
+}

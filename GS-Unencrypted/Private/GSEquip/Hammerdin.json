@@ -1,0 +1,185 @@
+{
+	"BuildName": "D2 EXP Hammerdin",
+	"Config": {
+		"BeltSlots": [
+			["hp", 3],
+			["mp", 3],
+			["mp", 3],
+			["rv", 0]
+		],
+		"General": {
+			"MinGameTime": 500,
+			"MaxGameTime": 2200,
+			"OpenChests": true,
+			"MiniShopBot": false,
+			"PacketShopping": true,
+			"TownCheck": true,
+			"LogExperience": false,
+			"Shrines": [],
+			"PacketCasting": 1
+		},
+		"DClone": {
+			"StopOnDClone": true,
+			"SoJWaitTime": 5,
+			"KillDclone": true,
+			"DCloneQuit": 0
+		},
+		"Fighting": {
+			"SkipImmune": [],
+			"SkipEnchant": [],
+			"SkipAura": [],
+			"AttackSkills": [0, 0, 0, 0, 0, 0, 0],
+			"LowManaSkills": [0, 0]
+		},
+		"Clear": {
+			"BossPriority": false,
+			"ClearType": 0,
+			"AvoidDolls": false,
+			"Vigor": true,
+			"Charge": true,
+			"Redemption": [50, 50]
+		},
+		"Town": {
+			"HealHP": 80,
+			"HealMP": 80,
+			"HealStatus": true,
+			"UseMerc": true,
+			"MercWatch": false,
+			"UseHP": 75,
+			"UseRejuvHP": 55,
+			"UseMP": 40,
+			"UseRejuvMP": 0,
+			"UseMercHP": 80,
+			"UseMercRejuv": 50,
+			"HPBuffer": 0,
+			"MPBuffer": 0,
+			"RejuvBuffer": 0,
+			"LifeChicken": 25,
+			"ManaChicken": 0,
+			"MercChicken": 0,
+			"TownHP": 45,
+			"TownMP": 0
+		},
+		"Gamble": {
+			"Gamble": true,
+			"GambleGoldStart": 1000000,
+			"GambleGoldStop": 500000,
+			"ToGambleFor": ["Amulet", "Ring"]
+		},
+		"Cubing": {
+			"Cubing": true,
+			"Recipes": [
+				["Token"], ["Gul Rune"], ["Ist Rune"], ["Mal Rune"], ["Um Rune"], ["Pul Rune"], ["Rare Diadem"], ["Thresher", "Eth"], ["Sacred Armor", "Eth"], ["Archon Plate", "Eth"]
+			]
+		},
+		"RuneWords": {
+			"MakeRunewords": true,
+			"ToMake": [
+				["Insight", "Thresher", "Eth"],
+				["Insight", "Cryptic Axe", "Eth"],
+				["Spirit", "Monarch", "Eth"],
+				["Spirit", "Sacred Targe", "Eth"]
+			],
+			"Keep": [
+				"[type] == polearm # [meditationaura] == 17",
+				"[type] == shield || [type] == auricshields # [fcr] == 35"
+			]
+		}
+	},
+	"StatPoints": [
+		["strength", 156],
+		["dexterity", 135],
+		["vitality", "all"]
+	],
+	"SkillPoints": [
+		[112, 20, true],
+		[113, 20, true],
+		[117, 15, true],
+		[124, 1, true],
+		[108, 20, true],
+		[115, 20, true],
+		[117, 20, true],
+		[124, 10, true],
+		[121, 10, true]
+	],
+	"Charms": {
+		"Grand": [
+			{ "Name": "Lion Branded", "Found": false, "Quanitity": 4 }
+		],
+		"Large": [
+			{ "Name": "Hellfire Torch", "Found": false, "Quanitity": 1 }
+		],
+		"Small": [
+			{ "Name": "of Good Luck", "Found": false, "Quanitity": 9 }
+		]
+	},
+	"Items": {
+		"Head": {
+			"Name": "Harlequin Crest",
+			"Found": false
+		},
+		"Amulet": {
+			"Name": "Mara's",
+			"Type": 12,
+			"Quality": 7,
+			"Found": false
+		},
+		"Weapon": {
+			"Name": "Heart of the Oak",
+			"Found": false
+		},
+		"Armor": {
+			"Name": "Enigma",
+			"Found": false
+		},
+		"Shield": {
+			"Name": "Herald of Zakarum",
+			"Found": false
+		},
+		"Glove": {
+			"Name": "Chance Guards",
+			"Quality": 7,
+			"Found": false
+		},
+		"LeftRing": {
+			"Name": "Stone of Jordan",
+			"Quality": 7,
+			"Found": false
+		},
+		"RightRing": {
+			"Name": "Stone of Jordan",
+			"Quality": 7,
+			"Found": false
+		},
+		"Belt": {
+			"Name": "Arachnid Mesh",
+			"Quality": 7,
+			"Found": false
+		},
+		"Boot": {
+			"Name": "War Traveler",
+			"Quality": 7,
+			"Found": false
+		},
+		"WeaponB": {
+			"Name": "Call to Arms",
+			"Found": false
+		},
+		"ShieldB": {
+			"Name": "Spirit",
+			"Found": false
+		},
+		"MercHelm": {
+			"Name": "Andariel's",
+			"Found": false
+		},
+		"MercWeapon": {
+			"Name": "Insight",
+			"Found": false
+		},
+		"MercArmor": {
+			"Name": "Chains of Honor",
+			"Found": false
+		}
+	}
+}

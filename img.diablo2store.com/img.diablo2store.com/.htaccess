@@ -1,0 +1,17 @@
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteEngine on
+RewriteRule escl-runes.png$ index.php?list=rune&i=1&r=1&h=0&l=1&e=1 [L]
+RewriteRule escl-keys.png$ index.php?list=keys&i=1&r=1&h=0&l=1&e=1 [L]
+RewriteRule escl-torch.png$ index.php?list=torch&i=1&r=1&h=0&l=1&e=1 [L]
+RewriteRule escl-charms.png$ index.php?list=charms&i=1&r=1&h=0&l=1&e=1 [L]
+#RewriteRule escl-runes.png$ underconstruction.png [L]
+#RewriteRule escl-keys.png$ underconstruction.png [L]
+</IfModule>
+
+# php -- BEGIN cPanel-generated handler, do not edit
+# Set the “ea-php72” package as the default “PHP” programming language.
+<IfModule mime_module>
+  AddHandler application/x-httpd-ea-php72 .php .php7 .phtml
+</IfModule>
+# php -- END cPanel-generated handler, do not edit
